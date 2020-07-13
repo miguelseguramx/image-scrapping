@@ -1,0 +1,31 @@
+{
+  "name": "image-scrapping",
+  "version": "1.0.0",
+  "description": "A tool to Download all the images from a Web Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelseguramx/image-scrapping.git"
+  },
+  "keywords": [
+    "Web-scrapping",
+    "Image-downloader",
+    "Puppeter",
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Miguel Segura Mx <mianse@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelseguramx/image-scrapping/issues"
+  },
+  "homepage": "https://github.com/miguelseguramx/image-scrapping#readme",
+  "dependencies": {
+    "image-downloader": "^4.0.1",
+    "puppeteer": "^5.0.0"
+  }
+}
